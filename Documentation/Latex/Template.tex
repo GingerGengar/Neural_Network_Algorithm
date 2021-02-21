@@ -1,0 +1,46 @@
+\documentclass[a4paper, 12pt]{report}
+\def\t{\theta}
+\def\a{\alpha}
+\def\be{\beta}
+\def\la{\lambda}
+\def\g{\gamma}
+\def\f{\frac}
+\def\l{\left}
+\def\r{\right}
+\def\dst{\displaystyle}
+\def\b{\bar}
+\def\h{\hat}
+\def\ph{\phi}
+\def\d{\cdot}
+\def\n{\nabla}
+\def\p{\partial}
+\usepackage{amsmath}
+\usepackage{esint}
+\usepackage{comment}
+\usepackage{amssymb}
+
+\let\stdsection\section
+\renewcommand\section{\newpage\stdsection}
+
+\begin{document}
+
+\title{Neural Network}
+\author{Hans C. Suganda}
+\date{15th January 2021}
+\maketitle
+\newpage
+
+\begin{center}
+
+\begin{tikzpicture}
+
+\draw (-2,0) -- (2,0);
+\filldraw [gray] (0,0) circle (2pt);
+\draw (-2,-2) .. controls (0,0) .. (2,-2);
+\draw (-2,2) .. controls (-1,0) and (1,0) .. (2,2);
+
+\end{tikzpicture}
+
+\end{center}
+\end{document}
+

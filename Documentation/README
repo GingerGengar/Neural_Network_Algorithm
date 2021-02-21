@@ -1,0 +1,13 @@
+
+How to run the main function even though the main isnt in the same directory as the library
+
+g++ -I /path/to/eigen/ my_program.cpp -o my_program (General Template on Terminal Command)
+
+g++ -I ~/Documents/Computer_Scripts/C++/Neural_Network/eigen_3.3.9_lib Main.cpp -o Main (Key this into terminal)
+
+./Main (Run the Compiled Executable "Main")
+
+ALternatively, this command points the compiler towards the header files of eigen and so it can compile, Idk how it works but it works in my machine
+
+g++ -I /usr/include/eigen3/ Main.cpp -o Main
+
