@@ -1,8 +1,4 @@
-#pragma once
-#include <iostream>
-#include <vector>
-#include "Logging.cpp"
-#include "LoggingInv.cpp"
+#include "MainHeader.h"
 
 /*
 Function Header: Compare

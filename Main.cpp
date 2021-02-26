@@ -1,19 +1,10 @@
-#pragma once
-#include <iostream>
-#include <vector>
-#include "Eigen/Core"
-#include "Eigen/Dense"
-#include "Logging.cpp"
-#include "LoggingInv.cpp"
-#include "Perform.cpp"
-#include "Compare.cpp"
-#include "Learn.cpp"
+#include "MainHeader.h"
 #define DEBUG 0
 
 int main()
 {
 	//Dimensions hold the mapping of the vectors. The first element is dimension of the input vector meanwhile the last element is dimension of the output vectors. The elements in between the first and last element are the represent dimension of hidden layers 
-	std::vector<int> Dimensions = {2,6,6,6,2};
+	std::vector<int> Dimensions = {2,4,4,1};
 
 	//Enumeration for what is the objective of the current code
 	enum OperationMode {DoNothing ,Normal, Training} Operation;

@@ -1,6 +1,4 @@
-#pragma once
-#include <iostream>
-#include <fstream>
+#include "MainHeader.h"
 
 template <class datatype>
 void FilePrinting(datatype vector, int n, bool Secure, int size, std::string name)

@@ -1,7 +1,4 @@
-#pragma once
-#include <iostream>
-#include <fstream>
-#include <vector>
+#include "MainHeader.h"
 
 /*
 Function Header: Logging Inverse

@@ -1,8 +1,4 @@
-#pragma once
-#include <iostream>
-#include <fstream>
-#include "FilePrint.cpp"
-#include "TerminalPrint.cpp"
+#include "MainHeader.h"
 
 /*
 Function Header: Logging

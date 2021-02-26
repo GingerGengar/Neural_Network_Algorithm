@@ -1,6 +1,4 @@
-#pragma once
-#include "Eigen/Core"
-#include "Eigen/Dense"
+#include "MainHeader.h"
 #define DESCENTSCALE 1
 
 template <class InpType>

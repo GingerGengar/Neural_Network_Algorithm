@@ -2,7 +2,7 @@ Files = FilePrint.o TerminalPrint.o Logging.o LoggingInv.o Sigmoid.o DSigmoid.o 
 
 Executable: $(Files) MainHeader.h
 	@echo "Linking All Object Files..."
-	g++ -I /usr/include/eigen3/ $(Files) -o Executable
+	g++ $(Files) -o Executable
 
 FilePrint.o: FilePrint.cpp
 	@echo "Build File Printing..."

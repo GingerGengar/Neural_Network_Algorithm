@@ -1,10 +1,4 @@
-#pragma once
-#include <iostream>
-#include <vector>
-#include "Eigen/Core"
-#include "Eigen/Dense"
-#include "Sigmoid.cpp"
-#include "Logging.cpp"
+#include "MainHeader.h"
 
 template <class datatype>
 void Perform(datatype LayerVec, datatype WeightVec, datatype BiasVec, std::vector<int> Dimensions)

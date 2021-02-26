@@ -1,10 +1,4 @@
-#pragma once
-#include <iostream>
-#include <math.h>
-#include <vector>
-#include "Eigen/Core"
-#include "Eigen/Dense"
-#include "Logging.cpp"
+#include "MainHeader.h"
 
 template<class datatype>
 datatype Dsigmoid(datatype matrix)

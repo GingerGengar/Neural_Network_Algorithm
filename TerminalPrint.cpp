@@ -1,6 +1,4 @@
-#pragma once
-#include <iostream>
-#include <fstream>
+#include "MainHeader.h"
 
 template <class datatype>
 void TerminalPrinting(datatype vector, int size, bool Secure, std::string message)

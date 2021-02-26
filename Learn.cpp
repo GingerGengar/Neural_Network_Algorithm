@@ -1,13 +1,4 @@
-#pragma once
-#include <iostream>
-#include <vector>
-#include "Logging.cpp"
-#include "Eigen/Core"
-#include "Eigen/Dense"
-#include "LoggingInv.cpp"
-#include "GradientDescent.cpp"
-#include "Sigmoid.cpp"
-#include "DSigmoid.cpp"
+#include "MainHeader.h"
 #define CYCLELIMIT 100000
 
 /*
@@ -63,6 +54,9 @@ void Learn(datatype LayerVec, datatype WeightVec, datatype BiasVec, datatype Pre
 		//Machine Learning Loops
 		for (int Cycles = 0; Cycles < CYCLELIMIT; Cycles++)
 		{
+			//Printing the Number of Cycles
+			std::cout << "Cycle: " << Cycles << std::endl;
+
 			//Setting The Gradient Descent Vector Matrices for Weights and Biases to zero
 			for (int i = 0; i < MatrixNum; i++)
 			{

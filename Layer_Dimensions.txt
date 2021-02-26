@@ -3,13 +3,10 @@ Element: 0
 2
 
 Element: 1
-6
+4
 
 Element: 2
-6
+4
 
 Element: 3
-6
-
-Element: 4
-2
+1
